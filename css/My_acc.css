@@ -1,0 +1,344 @@
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One|Pontano+Sans|Rajdhani|Cormorant+Garamond|Montserrat|Open+Sans&display=swap);
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+   /* height: 3000px; */
+   
+   background-color:whitesmoke;
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* height: 90px; */
+}
+
+.header_inform{
+    max-width: 1200px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    padding-top: 0px;
+  }
+
+.name{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', cursive;
+    color:rgb(65, 60, 60);
+    font-size: 30px;
+    /* padding-left: 50px; */
+    padding-top: 25px;
+    width: 230px;
+    border-bottom: 1px solid #B40404;
+}
+
+/*Меню*/
+.menu {
+    max-width: 1200px;
+    height: 100px;
+    position: relative;
+    top:-35px;
+    padding-left: 370px;
+    margin: auto;
+    font-family: 'Open Sans', cursive;
+  }
+  
+  .men {
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+  
+  }
+  
+  .g_menu{
+    padding-left:50% ;
+    position: relative;
+    margin-top: 0;
+    height: 100px;
+    /* width: 700px; */
+  }
+  
+  .g_menu .submenu {
+   
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  .ff{
+    margin-left: 50px;
+    height: 60px;
+  }
+  li {
+      display: block;
+      float: left;
+      position: relative;
+      text-decoration: none;
+      transition-duration: 0.5s;
+  }
+    
+  li a {
+    line-height: 24px;
+    color:  rgb(0, 0, 0);
+  }
+  
+  .submenu {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: relative;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+  .menu_link {
+  
+    position: relative;
+    display: inline-block;
+      font-family: 'Open Sans', cursive;
+      font-style: Extra-light 200;
+      font-size: 18px;
+      font-weight: 200;
+      text-transform: uppercase;
+      text-decoration: none;
+      /* margin-left: 50px; */
+      color:  rgb(0, 0, 0);
+      padding-top: 10px;
+      /* padding-left: 10px; */
+      cursor: pointer; 
+      transition: .3s;
+  }
+  .menu_link:hover{
+    transform: scale(1.1);
+  }
+
+
+
+  .section2{
+    width: 100%;
+    height: 900px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .text2{
+    width: 1200px;
+    margin: auto;
+    height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color:  rgb(0, 0, 0);
+    text-align: left;
+    
+  }
+  .product{
+    margin:auto;
+    padding: 0;
+    width: 1200px;
+    height: 800px;
+  
+  }
+  
+  .foto_prod img{
+      width: 280px;
+      height: 270px;
+      overflow: hidden;
+      transition: all ease-out 0.8s;
+      /* padding: relative; */
+  
+  }
+  
+  .foto_prod img:hover {
+    transform: scale(1.1);
+  }
+  
+  .foto_prod{
+    width: 280px;
+    height: 270px;
+    float: left;
+    margin-right: 26px;
+    margin-top: 150px;
+  }
+  
+  .text_prod{
+      font-family: 'Montserrat', cursive;
+      font-style: Extra-light 200;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+  }
+  .price{
+    color: #928C8C;
+  }
+  
+  .btnPrice {
+    position: relative;
+      top: -45px;
+     
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 45px;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8.3px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+  .btnPrice:hover {
+    background: rgb(141, 135, 135);;
+    box-shadow: 0 15px 20px rgba(184, 180, 180, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+  
+  .btnBuy{
+    position: relative;
+    top: -77px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 80px;
+  height: 32px;
+  line-height: 33px;
+  border-radius: 45px;
+  margin-left: 190px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+  
+  }
+  
+  .btnBuy:hover {
+    background: #B40404;;
+    box-shadow: 0 15px 20px rgba(184, 180, 180, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  .section3{
+    width: 100%;
+    height: 900px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .text3{
+    width: 1200px;
+    margin: auto;
+    height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color:  rgb(0, 0, 0);
+    position: relative;
+
+  }
+  .section4{
+    width: 100%;
+    height: 900px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .text4{
+    width: 1200px;
+    margin: auto;
+    height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color:  rgb(0, 0, 0);
+
+  }
+
+  .footer{
+    width: 100%;
+    height: 220px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(197,198,204);
+  }
+  .end{
+    max-width: 1200px;
+    height: 220px;
+    position: relative;
+    margin: auto;
+    padding-top: 50px;
+  
+  }
+  .f_text1{
+    font-family: 'Montserrat', cursive;
+      font-style: Extra-light 200;
+      font-size: 17px;
+      padding-left: 23%;
+      float: left;
+      
+  }
+  .f_text2{
+    font-family: 'Montserrat', cursive;
+    font-style: Extra-light 200;
+    font-size: 17px;
+    padding-left: 55%;
+  }
+  .f_text3{
+    font-family: 'Montserrat', cursive;
+      font-style: Extra-light 200;
+      font-size: 17px;
+    padding-left: 45%;
+  }
+  .ceti img{
+    width: 60px;
+    height: 35px;
+    padding-left: 20px;
+    
+  }
+  .ceti{
+    padding-left: 35%;
+  }
+  
+ 
